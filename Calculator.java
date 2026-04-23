@@ -11,9 +11,8 @@ class Calculator {
         return 0; 
     }
 
-    // Código que causará el conflicto
     int sub(int a, int b) { 
-        return 99999; 
+        return a - b; 
     }
 
     public int mul(int a, int b) {
@@ -27,8 +26,8 @@ class Calculator {
         return a / b;
     }
 
-    // Código que causará el conflicto
     int mod(int a, int b) { 
-        return -1; 
+        if (b == 0) return 0;
+        return a % b; 
     }
 }
