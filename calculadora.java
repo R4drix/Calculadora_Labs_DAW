@@ -1,14 +1,5 @@
-<<<<<<< HEAD
-
-public class calculadora {
-    public static void main(String[] args) {
-        Calculadora calculadora = new Calculadora();
-
-
-    
-=======
 import java.util.*;
-public class Calculadora {
+public class calculadora {
     public static void main(String[] args) {
         Scanner sc = new Scanner(System.in);
 
